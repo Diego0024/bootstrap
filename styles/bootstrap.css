@@ -1,0 +1,50 @@
+/*
+Estilos para el archivo bootstrap.html
+
+Estilos para el cuerpo y el Titular principal de la pagina*/
+
+body {
+    background-color: #05ff15;
+}
+
+h1, h2{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#ClaseContainer, #ClaseRow, #ClaseCol{
+    color: #19fd08;
+    background-color: #2d08fd;
+    border: 1px solid #35ce06;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*Estilos agregados a la barra de navegacion y a los elementos de navegacion dentro de la misma
+
+
+Para consultar de que van los cambios, favor de revisar la hoja de estilos components.css
+*/
+
+#NavPrincipal {
+    background-color: #2205fc;
+}
+
+.nav-link,
+.navbar-brand,
+.nav-link {
+    color: #04f811;
+}
+
+.nav-link:hover,
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #06ceb0;
+}
+
+.navbar-toggler {
+    background-color: #1ff807;
+}
