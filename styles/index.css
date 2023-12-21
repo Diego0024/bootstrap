@@ -1,8 +1,3 @@
-/*
-Estilos para el archivo bootstrap.html
-
-Estilos para el cuerpo y el Titular principal de la pagina*/
-
 body {
     background-color: #05ff15;
 }
@@ -22,12 +17,6 @@ h1, h2{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
-/*Estilos agregados a la barra de navegacion y a los elementos de navegacion dentro de la misma
-
-
-Para consultar de que van los cambios, favor de revisar la hoja de estilos components.css
-*/
 
 #NavPrincipal {
     background-color: #2205fc;

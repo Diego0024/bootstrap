@@ -15,23 +15,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Intro-Bootstrap</title>
 
-  <!--Como agragar bootstrap a nuestro proyecto
-    
-    Basta con copiar y pegar los links al CDN (Content Delivery Network) como lo hemos aprendido
-    a lo largo de las sesiones, uno es una hoja de estilos CSS que precisamente proporciona
-    estilos predefinidos, desde la tipografia hasta cualquier otro componente
-
-    Recomendacion - Es buena practica colocar las etiquetas <script> una linea arriba antes de la
-    etiqueta de cierre del body
-  
-      Otras formas de agragar el framework Bootstrap a nuestro proyecto es descargando el archivo comprimido que contiene todos los estilos CSS y funciones JS, aunque
-      no se recomienda hacerlo de esta forma porque conectandonos a la CDN optimizamos la carga de recursos
-
-      Tambien se puede realizar a traves de la terminal haciendo uso de node.js y npm (node package manager)
-
-      Estas formas de agregar el proyecto se especifican con detalle en la documentacion oficial de Bootstrap
-  
-    -->
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -39,8 +22,6 @@
 </head>
 
 <body>
-
-  <!--Colocamos el componente Navbar que ya nos proporciona Bootstrap, el cual podemos encontrar en su documentacion ofcial-->
 
   <nav class="navbar navbar-expand-sm" id="NavPrincipal">
     <div class="container">
@@ -89,35 +70,7 @@
   </div>
 
   <br>
-  <!--Clases
-    
-    El framework bootstrap nos proporciona una serie de atributos class=""
-    previamente definidos, los cuales podemos mandar a llamar dentro de nuestro
-    archivo HTML
 
-    Los distintos valores que van dentro del atributo class="" se pueden consultar en la
-    documentacion oficial del framework
-
-    Para utilizar la grilla de CSS y manipularla a nuestro antojo
-    con BOOTSTRAP
-
-    Todos los elementos se colocan dentro de una etiqueta div
-    con alguna de las siguientes clases
-
-    Class="container" - Ocupa las 12 columnas del grid que proporciona CSS, pero deja un margen a los costados
-    Class="container-fluid" - Ocupa el tamaño completo de la pantalla
-
-    Class="row" - Indica que el contenedor se comprtara como una fila
-
-    Class="col-n"
-    El atributo Class="col-n" nos permite establecer el numero de columnas que queramos ocupe un elemento
-    como lo puede ser un texto, imagen, card, etc.
-
-    -->
- 
-
-
-  <!--Script que linkea a las funciones de los componentes de Bootsrap que se proporcionan a traves de su CDN-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
